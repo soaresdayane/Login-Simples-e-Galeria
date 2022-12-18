@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(103, 89, 49, 0.695);
+
+}
+.container{
+    align-items: center;
+    display: flex;
+    margin-top: 10em;
+    padding-right: 5em;
+
+}
+.container img{
+    width: 50%;
+    height: 500px;
+    border-radius: 3em;
+    margin: auto;
+    filter: drop-shadow(2px 4px 8px rgb(75, 74, 72));
+
+}
+.formulario{
+    /*border-left: 5px solid rgb(70, 66, 49);*/
+    border-left: 2px solid rgb(237, 236, 229);
+    height: 300px;
+    padding: 2em;
+    margin-right: 5em;
+    line-height: 2em;
+    font-family: serif;
+    color: rgb(237, 236, 229);
+}
+.titulo {
+    font-size: 30px;
+    padding: 1em 0 0.3em 0;
+
+}
+.card-login input{ 
+    display: block;
+    margin-top: 2em;
+    padding: 1em;
+    border: 2px solid rgb(237, 236, 229);
+    border-radius: 1em;
+    width: 320px;
+}
+
+.botao{
+    width: 30%;
+    padding: 0.6em;
+    border: 2px solid rgb(158, 152, 152);
+    border-radius:10px;
+    margin-top: 4em;
+    font-weight:bold ;
+    background: rgba(188, 179, 114, 0.874);
+    color: rgb(237, 236, 229);
+    font-size: 17px;
+    cursor: pointer;
+
+}
